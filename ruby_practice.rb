@@ -42,7 +42,8 @@ else
 end
 
 #now test this on the 12 Days of Christmas idea
-N = gets.strip.to_i
+print "Integer please: "
+N = Integer(gets.chomp)
 if
     (N==1)
     puts "A Partridge in a Pear Tree"
