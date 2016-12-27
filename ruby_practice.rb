@@ -74,3 +74,6 @@ else
 end
 
 #Now work out how to link this to the HTML file to produce graphics as numbers are inputted
+<%= link_to(@album) do %>
+
+<% end %>
